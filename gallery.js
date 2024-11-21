@@ -52,6 +52,8 @@ function swapPhoto() {
   $('.person').text("Person: " + imageData.imgPerson);
   $('.description').text("Description: " + imageData.description);
   $('.date').text("Date: " + imageData.date);
+  $('.location').text("Location: " + imageData.imgLocation);
+
 
   resetTimer();
 }

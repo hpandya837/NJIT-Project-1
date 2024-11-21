@@ -31,33 +31,33 @@
             "date": "01/05/2016"
         },
         {
-            "imgPath": "img/places/india.jpg",
-            "imgLocation": "India",
-            "description": "Taj Mahal",
+            "imgPath": "surfing waves in costa rica_.jpeg",
+            "imgLocation": "Costa Rica",
+            "description": "Surfing Waves",
             "date": "01/06/2016"
         },
         {
-            "imgPath": "img/places/italy.jpg",
-            "imgLocation": "Italy",
-            "description": "Venice",
+            "imgPath": "hiking angles landing in zion national park_.jpeg",
+            "imgLocation": "Zion National Park",
+            "description": "hiking Angles landing",
             "date": "01/07/2016"
         },
         {
-            "imgPath": "img/places/japan.jpg",
-            "imgLocation": "Japan",
-            "description": "Hirosaki Castle",
+            "imgPath": "scuba diving photographer taking pictures of a beautiful, surreal landscape.jpeg",
+            "imgLocation": "Australia",
+            "description": "scuba diving",
             "date": "01/08/2016"
         },
         {
-            "imgPath": "img/places/korea.jpg",
-            "imgLocation": "South Korea",
-            "description": "Seoul",
+            "imgPath": "tomato fight festival in seville spain_.jpeg",
+            "imgLocation": "Seville Spain",
+            "description": "tomatina festival",
             "date": "01/09/2016"
         },
         {
-            "imgPath": "img/places/norway.jpg",
+            "imgPath": "norway Geirangerfjord_.jpeg",
             "imgLocation": "Norway",
-            "description": "Countryside mountains",
+            "description": "Geirangerfjord",
             "date": "01/10/2016"
         },
         {
@@ -67,15 +67,15 @@
             "date": "01/11/2016"
         },
         {
-            "imgPath": "img/places/thailand.jpg",
+            "imgPath": "thailand temple.jpeg",
             "imgLocation": "Thailand",
-            "description": "Beachline",
+            "description": "temple",
             "date": "01/12/2016"
         },
         {
-            "imgPath": "img/places/turkey.jpg",
+            "imgPath": "hot air balloons in turkey_sunset.jpeg",
             "imgLocation": "Turkey",
-            "description": "Istanbul",
+            "description": "Hot air balloons",
             "date": "01/13/2016"
         }
   ]
