@@ -1,7 +1,7 @@
 let mCurrentIndex = 0 // Tracks the current image index
 let mImages = [] // Array to hold GalleryImage objects
 const mUrl = 'images.json' // Replace with actual JSON URL
-const mWaitTime = 5000 // Timer interval in milliseconds
+const mWaitTime = 3000 // Timer interval in milliseconds
 
 $(document).ready(() => {
   $('.details').hide() // Hide details initially
@@ -51,6 +51,9 @@ function swapPhoto() {
   $('#photo').attr("src",imageData.imgPath);
   $('.person').text("Person: " + imageData.imgPerson);
   $('.description').text("Description: " + imageData.description);
+  $('.date').text("Date: " + imageData.date);
+
+  resetTimer();
 }
 
 // Advances to the next photo, loops to the first photo if the end of array is reached
@@ -79,10 +82,19 @@ function showPrevPhoto() {
     swapPhoto();
 }
 
+let interval;
 
 // Starter code for the timer function
-function startTimer () {
+function startTimer() {
   // Create a timer to automatically call `showNextPhoto()` every mWaitTime milliseconds
   // Consider using setInterval to achieve this functionality
   // Hint: Make sure only one timer runs at a time
+  interval = setInterval(() => {
+    showNextPhoto();
+  }, mWaitTime);
+}
+
+function resetTimer() {
+  clearInterval(interval);
+  startTimer();
 }
